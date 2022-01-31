@@ -1,0 +1,69 @@
+<!-- basic website for a survey (for fun) -->
+
+<!DOCTYPE html>
+<mneta charset="utf-8">
+<html>
+
+<head>
+  <title> TKSS Survey '22 </title>
+  <h2> TKSS Survey '22 </h2>
+  <p> First
+</head>
+
+<body>
+  <main>
+  
+  <h3 id="top"> Click <a href="#bottom"> here </a> to go to the bottom </h3>
+  
+  <form action="">
+    <a href="https://tanjongkatongsec.moe.edu.sg"> <img src="https://tanjongkatongsec.moe.edu.sg/wp-content/uploads/2017/03/cropped-TK-logo.jpg"> </a>
+    <h5> * <i> click image for school website </i>
+      <!-- begin with 1 qn: radio button, 2nd qn: checkboxes, 3rd qn: required normal input, 4th qn: checked checkboxes -->
+      
+          <p> Details. <p>
+       <label for="canteen>
+        <input id="canteen" placeholder="Name . Class . Level" requireed>
+       </label>
+       
+      <p> Qn1. Are you <strong>happy</strong> with our school? <p>
+       <label for="yes"> Definitely!
+        <input id="yes" type="radio" name="happy">
+       </label>
+       <label for="no"> Could use some improvement here and there..
+        <input id="no" type="radio" name="happy">
+       </label>
+       
+      <p> Qn2. What are your <strong> favourite places </strong> in TK? <p>
+       <label for="canteen> Canteen, I'm hungry!
+        <input id="canteen" type="checkbox" name="favplace">
+       </label>
+       <label for="class"> Class, I still have homework..
+        <input id="class" type="checkbox" name="favplace">
+       </label>
+       <label for="library"> Library, I like books.
+        <input id="library" type="checkbox" name="favplace">
+       </label>
+       
+       <p> Qn3. Uncheck the boxes that do not apply.*<p>
+       <label for="50math"> Over 50% for math
+        <input id="50math" type="checkbox" name="applybox" checked>
+       </label>
+       <label for="65overall"> Over 65% overall
+        <input id="65overall" type="checkbox" name="applybox" checked>
+       </label>
+       <label for="70ms"> Over 70% for math and science
+        <input id="70ms" type="checkbox" name="applybox" checked>
+       </label>
+       
+       <button type="submit"> I'm Done! </button>
+       
+       <br>
+       <br>
+       <hr>
+    <h3 id="bottom"> Click <a href="#top">here</a> to go to the top! </h3>
+       
+  </form>
+  </main>
+</body>
+
+</html>
